@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
-    font-weight: 500;
+    
 }
 /* barra de menu*/
 header{
@@ -92,7 +92,7 @@ header{
 
 /*menu de enmedio */
 .menu__center {
-    margin: 0px 0px 0px 500px;
+    margin: 0px 0px 0px 400px;
     display: flex;
     flex-direction: row;
     cursor: pointer;
@@ -136,6 +136,7 @@ header{
     position: absolute;
     top: 80px;
     padding: 5px;
+    z-index: 5;
 
 }
 
@@ -145,6 +146,7 @@ header{
     margin: 5px 0px;
     border-radius: 5px;
     font-size: 10px;
+
 
 }
 
@@ -163,15 +165,14 @@ header{
 .texto1{
     display: flex;
     justify-content: center;
-    font-size: 15px; 
+    font-size: 10px; 
     font-weight: 900;
 
 }
 .texto2{
     display: flex;
     justify-content: center;
-    font-size: 40px; 
-    font-weight: 900;
+    font-size: 30px; 
     text-align: center;
 }
 .texto3{
